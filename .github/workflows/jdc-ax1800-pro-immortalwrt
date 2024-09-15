@@ -7,7 +7,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 ###############手动修改##############
-name: JDCloud-AX6000-Baili-immortalwrt
+name: JDCloud-AX1800-Pro-immortalwrt
 
 on:
   repository_dispatch:
@@ -30,10 +30,10 @@ env:
   OPENWRT_NAME: immortalwrt
   REPO_URL: https://github.com/immortalwrt/immortalwrt
   REPO_BRANCH: master
-  FEEDS_CONF: JDCloud-AX6000-Baili-immortalwrt/feeds.conf.default
-  CONFIG_FILE: JDCloud-AX6000-Baili-immortalwrt/immortalwrt.config
-  DIY_P1_SH: JDCloud-AX6000-Baili-immortalwrt/diy-part1.sh
-  DIY_P2_SH: JDCloud-AX6000-Baili-immortalwrt/diy-part2.sh
+  FEEDS_CONF: JDCloud-AX1800-Pro-immortalwrt/feeds.conf.default
+  CONFIG_FILE: JDCloud-AX1800-Pro-immortalwrt/immortalwrt.config
+  DIY_P1_SH: JDCloud-AX1800-Pro-immortalwrt/diy-part1.sh
+  DIY_P2_SH: JDCloud-AX1800-Pro-immortalwrt/diy-part2.sh
   SSH_ACTIONS: false
   UPLOAD_FIRMWARE: true
   UPLOAD_RELEASE: true
